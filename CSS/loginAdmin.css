@@ -1,0 +1,307 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header{
+  border-bottom: 1px solid #747474
+
+}
+.tamanhoLogo{
+  width: 246px;
+  height: 105px;
+}
+.tamanhoIcons{
+  width: 20px;
+  height: 22px;
+}
+.conteinner1{
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#subContainner2{
+  display: flex;
+  align-items: center;
+}
+#subContainner2 form input{
+  height: 40px;
+  padding-left: 15px;
+  width: 432px;
+  border-radius: 5px;
+  border: 1px solid #A8A8A8;
+}
+
+#subContainner3{
+  display: flex;
+  align-items: center;
+  width: 526px;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
+}
+
+#subContainner3 nav{
+  width: 526px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#subContainner3 nav a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #436BBB;
+}
+#subContainner3 nav a img{
+  margin-right: 12px;
+  margin-left: 12px;
+}
+#search{
+  margin-top: 9px;
+  position: absolute;
+  margin-left: -34px;
+}
+#containner2{
+  background-color: #F55145;
+}
+#containner2 ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 200px;
+  height: 52px;
+  list-style: none;
+  align-items: center;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
+}
+
+#categorias{
+  width: 198px;
+  height: 34px;
+  border-radius: 10px;
+}
+
+.print{
+  width: 30px;
+}
+#logo{
+  width: 523px;
+  margin: 54px 1229px 0 251px
+}
+#containner{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 200px;
+  margin-top: 50px;
+}
+#containnerBox{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 225px;
+}
+#formLogin{
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 15px 0 0 20px;
+  width: 702px;
+  height: 398px;
+  padding: 0 30px 0 30px
+
+}
+#formLogin form{
+  display: flex;
+  flex-direction: column;
+}
+#formLogin form input{
+  width: 99%;
+  height: 30px;
+
+}
+#formLogin form label{
+  margin-top: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  color: #565656;
+  font-size: 14px;
+
+}
+
+#formCadastro{
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 15px 0 0 20px;
+  width: 702px;
+  height: 398px;
+  padding: 0 30px 0 30px
+}
+.form{
+  width: 700px;
+}
+
+.mainTextForm{
+  font-family: 'Open-sans', sans-serif;
+  font-size: 24px;
+  color: #565656;
+  padding-top: 15px;
+}
+
+.subTextForm{
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14px;
+  color: #565656;
+  padding-top: 16px;
+  
+}
+
+.subLink{
+  display: flex;
+  justify-content: space-between;
+}
+
+#loginButton{
+  margin-top: 15px;
+  height: 45px;
+  font-family: 'Open-sans', sans-serif;
+  background-color: #F55145;
+  opacity: 0.7;
+  border: 1px solid #F55145;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+}
+
+#loginButton:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.subLink {
+  margin-top: 20px;
+}
+
+.subLink > a{
+  text-decoration: none;
+  color: #565656;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px
+}
+
+.inputData{
+  border: 1px solid #d3d3d3;
+}
+
+#dataForm{
+  font-family: 'Open-sans', sans;
+  color: red
+}
+
+#nome{
+  width: 97%;
+  height:30px;
+  margin: 20px 0 20px 0;
+  padding-left: 5px;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #565656;
+  border: 1px solid #d3d3d3;
+}
+
+
+.leftData{
+  height:30px;
+  padding-left: 5px;
+  width: 47%;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14px;
+  color: #565656;
+  border: 1px solid #d3d3d3;
+}
+
+.datasGroups{
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  
+}
+
+.rightData{
+  margin-left: 10px;
+  height:30px;
+  width: 47%;
+  padding-left: 5px;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14px;
+  color: #565656;
+  border: 1px solid #d3d3d3;
+}
+
+#cadastreSeButton{
+  width: 100%;
+  height: 45px;
+  font-family: 'Open-sans', sans-serif;
+  background-color: #F55145;
+  opacity: 0.7;
+  border: 1px solid #F55145;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+}
+
+#cadastreSeButton:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 94px;
+  width: 100%;
+  border-top: 2px solid #747474;
+
+}
+.colorBlue{
+  color: #003471;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 700;
+  margin: 0;
+  font-size: 20px;
+  padding-top: 20px
+}
+.colorRed{
+  color:#F55145;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  font-size: 20px
+}
+
+.colorRed > h2{
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 900;
+  margin: 0;
+}
+
+#thinBlue{
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+#mediumBlue{
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+.imgFooter{
+  width: 500px;
+  margin: 0;
+}
